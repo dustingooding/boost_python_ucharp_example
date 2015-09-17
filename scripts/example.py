@@ -12,4 +12,4 @@ print buf
 e = example_py.ExampleClass()
 
 print 'c++:'
-e.printBuffer(ctypes.cast(ctypes.c_char_p(buf), ctypes.POINTER(ctypes.c_ubyte)), ctypes.c_uint(4))
+e.printBuffer(ctypes.cast(ctypes.c_char_p(buf), ctypes.POINTER(ctypes.c_ubyte)), len(buf))
