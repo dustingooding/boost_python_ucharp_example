@@ -9,7 +9,7 @@ public:
     ExampleClass() {}
     virtual ~ExampleClass() {}
 
-    void printBuffer(unsigned char* buffer, unsigned int length)
+    void printBuffer(char* buffer, unsigned int length)
     {
         for (unsigned int i = 0; i < length; ++i)
         {

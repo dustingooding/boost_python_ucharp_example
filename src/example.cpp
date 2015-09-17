@@ -2,7 +2,7 @@
 
 int main(int argc, char** argv)
 {
-    unsigned char buf[4];
+    char buf[4];
     buf[0] = 0x41;
     buf[1] = 0x42;
     buf[2] = 0x43;
